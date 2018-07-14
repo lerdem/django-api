@@ -7,9 +7,12 @@ name = "pypi"
 "psycopg2-binary" = "*"
 dj-database-url = "*"
 django = "==1.11.11"
+djangorestframework = "*"
+
 
 [dev-packages]
 ipdb = "*"
+django-extensions = "*"
 
 [requires]
 python_version = "3.6"

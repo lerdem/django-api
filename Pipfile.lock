@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "d38c76633de582d4ab418fadbfac46f973edf532c80e3140c6d3e72a42c6bced"
+            "sha256": "88444b2c93c9ad492694474dff67349200cf3bcdf6954182124f2c8a7fc55f29"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -32,6 +32,14 @@
             "index": "pypi",
             "version": "==1.11.11"
         },
+        "djangorestframework": {
+            "hashes": [
+                "sha256:b6714c3e4b0f8d524f193c91ecf5f5450092c2145439ac2769711f7eba89a9d9",
+                "sha256:c375e4f95a3a64fccac412e36fb42ba36881e52313ec021ef410b40f67cddca4"
+            ],
+            "index": "pypi",
+            "version": "==3.8.2"
+        },
         "psycopg2-binary": {
             "hashes": [
                 "sha256:04afb59bbbd2eab3148e6816beddc74348078b8c02a1113ea7f7822f5be4afe3",
@@ -48,8 +56,11 @@
                 "sha256:5221f5a3f4ca2ddf0d58e8b8a32ca50948be9a43351fda797eb4e72d7a7aa34d",
                 "sha256:5c6ca0b507540a11eaf9e77dee4f07c131c2ec80ca0cffa146671bf690bc1c02",
                 "sha256:789bd89d71d704db2b3d5e67d6d518b158985d791d3b2dec5ab85457cfc9677b",
+                "sha256:7b94d29239efeaa6a967f3b5971bd0518d2a24edd1511edbf4a2c8b815220d07",
                 "sha256:89bc65ef3301c74cf32db25334421ea6adbe8f65601ea45dcaaf095abed910bb",
+                "sha256:89d6d3a549f405c20c9ae4dc94d7ed2de2fa77427a470674490a622070732e62",
                 "sha256:97521704ac7127d7d8ba22877da3c7bf4a40366587d238ec679ff38e33177498",
+                "sha256:a395b62d5f44ff6f633231abe568e2203b8fabf9797cd6386aa92497df912d9a",
                 "sha256:a6d32c37f714c3f34158f3fa659f3a8f2658d5f53c4297d45579b9677cc4d852",
                 "sha256:a89ee5c26f72f2d0d74b991ce49e42ddeb4ac0dc2d8c06a0f2770a1ab48f4fe0",
                 "sha256:b4c8b0ef3608e59317bfc501df84a61e48b5445d45f24d0391a24802de5f2d84",
@@ -87,6 +98,14 @@
                 "sha256:c39efa13fbdeb4506c476c9b3babf6a718da943dab7811c206005a4a956c080c"
             ],
             "version": "==4.3.0"
+        },
+        "django-extensions": {
+            "hashes": [
+                "sha256:3be3debf53c77ca795bdf713726c923aa3c3f895e1a42e2e31a68c1a562346a4",
+                "sha256:94bfac99eb262c5ac27e53eda96925e2e53fe0b331af7dde37012d07639a649c"
+            ],
+            "index": "pypi",
+            "version": "==2.0.7"
         },
         "ipdb": {
             "hashes": [

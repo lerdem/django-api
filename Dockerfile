@@ -9,8 +9,8 @@ RUN mkdir -p $APP_DIR &&\
 WORKDIR $APP_DIR
 ADD Pipfile $APP_DIR
 ADD Pipfile.lock $APP_DIR
-RUN pipenv install --system
+RUN pipenv install --system --verbose
 COPY . $APP_DIR
 RUN chown -R django_user:django_user $APP_DIR
-# USER django_user
-VOLUME APP_DIR
+USER django_user
+VOLUME $APP_DIR
